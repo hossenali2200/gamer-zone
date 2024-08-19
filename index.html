@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gamer Zone</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f913110033.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
+    <header class="max-w-screen-lg mx-auto  flex justify-between  my-4">
+        <div class="flex gap-3">
+            <img class="h-8" src="./images/Frame.png" alt="">
+            <h2 class="font-bold text-3xl"><span class="text-rose-500">G</span>amer</h2>
+        </div>
+        <div class=" flex justify-between gap-4">
+           <nav>
+            <ul class="flex gap-4 font-bold text-2xl">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Developers</a></li>
+            </ul>
+           </nav>
+
+            <div class="flex gap-2 bg-gray-200   p-2 rounded-md">
+                <p>Follow Us On</p>
+                <i class="fa-brands fa-youtube  text-xl"></i>
+                <i class="fa-brands fa-tiktok  text-xl"></i>
+            </div>
+        </div>
+    </header>
     
 </body>
 </html>
