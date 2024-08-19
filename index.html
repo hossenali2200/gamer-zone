@@ -29,24 +29,28 @@
       </script>
 </head>
 <body>
-    <header class="max-w-screen-lg mx-auto  flex justify-between  my-4">
+    <header class="lg:max-w-screen-lg mx-auto  flex justify-between  my-4">
         <div class="flex gap-3">
-            <img class="h-8" src="./images/Frame.png" alt="">
+            <img class="h-8 mx-12" src="./images/Frame.png" alt="">
             <h2 class="font-bold text-3xl"><span class="text-rose-500">G</span>amer</h2>
         </div>
-        <div class=" flex justify-between gap-4">
-           <nav>
-            <ul class="flex gap-4 font-bold text-2xl">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Developers</a></li>
-            </ul>
-           </nav>
-
-            <div class="flex gap-2 bg-gray-200   p-2 rounded-md">
-                <p>Follow Us On</p>
-                <i class="fa-brands fa-youtube  text-xl"></i>
-                <i class="fa-brands fa-tiktok  text-xl"></i>
-            </div>
+        <div class="">
+           <div class="hidden lg:block  ">
+           <div class="flex gap-4">
+            <nav class="">
+                <ul class="flex gap-4 font-bold text-2xl">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+               </nav>
+    
+                <div class="flex gap-2 bg-gray-200   p-2 rounded-md">
+                    <p>Follow Us On</p>
+                    <i class="fa-brands fa-youtube  text-xl"></i>
+                    <i class="fa-brands fa-tiktok  text-xl"></i>
+                </div>
+           </div>
+           </div>
         </div>
     </header>
 
@@ -55,7 +59,7 @@
          <section class="mt-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
                 <!-- content -->
-                <div class="p-48 bg-[url('/images/Group 14.png')] bg-gradient-to-r from-green-600 to-orange-50">
+                <div class="lg:p-48 p-12 bg-gradient-to-r from-green-600 to-orange-50">
                     <h2 class="font-bold uppercase text-xl">Play like the</h2>
                     <h1 class="font-extrabold text-4xl text-red-500 mb-8">G.O.A.T</h1>
                     <div class="flex gap-3 mt-4 ">
@@ -77,21 +81,21 @@
                 </div>
                 <!-- img content -->
                  <div>
-                    <div class="w-4/5">
+                    <div class="w-4/5 mx-auto">
                         <img src="./images/Group 18.png" alt="">
                     </div>
                  </div>
             </div>
          </section>
          <!-- know section -->
-          <section class="bg-orange-50">
+          <section class="bg-orange-50 mt-20">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-screen-lg mx-auto ">
                 <!-- image -->
                 <div class="text-right">
                     <img class="mt-24" src="./images/pngwing 4.png" alt="">
                 </div>
                 <!-- content -->
-                 <div class="text-right p-24">
+                 <div class="text-right lg:p-24 p-12">
                     <h2 class="font-bold text-4xl text-purple-600 mb-4">We are gamer</h2>
                     <p class="mb-6">An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.</p>
                     <button class="bg-pink-600 mb-6 text-2xl font-bold uppercase text-white px-6 py-3 rounded-3xl">Know more</button>
@@ -100,6 +104,67 @@
                  </div>
             </div>
 
+          </section>
+
+          <!-- online game section -->
+
+          <section class="mt-20 mb-20">
+            <div>
+                <div class="lg:w-2/4 lg:mx-auto text-center mb-8">
+                    <h2 class="font-bold text-4xl">Online Games <span class="text-purple-500">Funny Videos</span></h2>
+                    <p class="font-medium mt-2">A Collection of Hilarious Videos to Brighten Your Day</p>
+                </div>
+
+                <div class="lg:max-w-screen-xl mx-12 lg:mx-auto mt-20 grid grid-cols-1 lg:grid-cols-4 gap-4">
+                    <div>
+                        <img src="./images/Rectangle 4.png" alt="">
+                        <p class="font-semibold text-lg">No Download. No Installs. Play games Instantly on Gamer.</p>
+                    </div>
+                    <div>
+                        <img src="./images/Rectangle 5.png" alt="">
+                        <p class="font-semibold text-lg">Did you score? #unblockedgames #school</p>
+                    </div>
+                    <div>
+                        <img src="./images/Rectangle 6.png" alt="">
+                        <p class="font-semibold text-lg">Breaking game records like OG</p>
+                    </div>
+                    <div class= "relative">
+                        <div>
+                            <img class="opacity-45"  src="./images/Rectangle 7.png" alt="">
+                        <p class="font-semibold text-lg">Busted gaming on school laptop, but you are still lit.</p>
+                        </div>
+                        <div class="absolute top-44 left-24  text-center">
+                            <i class="fa-solid fa-circle-play font-bold text-slate-800"></i>
+                            <p class="text-red-700 font-bold">Watch now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </section>
+
+          <!--1st card section -->
+          <section>
+            <div class="grid grid-cols-1 lg:grid-cols-2 max-w-screen-xl mx-auto gap-8">
+                <!-- content -->
+                 <div class="text-right p-40">
+                    <h2 class="font-bold text-3xl mb-6"><span class="text-purple-500">Play Instantly,</span><br>
+                        No Downloads <br>
+                        No Installs.</h2>
+
+                    <p class="font-medium">Play games online for free without <br> downloading. Just click the Play button <br> and play instantly in your browser.</p>
+                 </div>
+
+                 <!-- image -->
+                  <div class=" ">
+                     
+                     
+                     <div class="relative">
+                        <img class="h-96" src="./images/Rectangle 55.png" alt="">
+                        <img class="h-56 absolute top-60 -left-24" src="./images/Rectangle 66.png" alt="">
+                      </div>
+                  </div>
+            </div>
           </section>
     </main>
     
